@@ -1,5 +1,11 @@
 close all
 clear all
+
+disp("-->> Starting process.");
+addpath("app");
+addpath("functions");
+addpath("templates");
+
 % fspace  = 0.1:0.5:(99*0.5+0.1); % frequency space
 fspace  = 0.1:0.5:(79*0.5+0.1); % frequency space
 load('E:\CCLAB\EEG-MEG Project - Paper_draft\BTOP paper\EEG-MEG\goodIndEEG.mat');
