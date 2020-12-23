@@ -1,3 +1,4 @@
+DATA_PATH: https://lstneuro.sharepoint.com/:f:/s/CNSEEG-MEGproject/EmLuIg5na95Pvsak33LPCDsBI3RgUS4qNO5L86A6Seo78w?e=4iHkLG
 # EEG-MEG-COMPARISONS
 1- give dataset path in test.m and mention the inverse solution folder name as well.
 2- test.m will execute various funtions to perform permutation test on t-stat, linear regression(three different linear regression).
