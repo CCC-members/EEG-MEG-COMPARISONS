@@ -2,6 +2,11 @@ clear all
 close all
 clc
 
+disp("-->> Starting process.");
+addpath("app");
+addpath("functions");
+addpath("templates");
+
 %% prepare data
 data_path    = 'E:\CCLAB\EEG-MEG Project - Paper_draft\BTOP paper\EEG-MEG\BC-V_Activation_final\';
 % data_path    = 'D:\OneDrive - Neuroinformatics Collaboratory\BTOP paper\EEG-MEG\BC-V_Activation_final\';

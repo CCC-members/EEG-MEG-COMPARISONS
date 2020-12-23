@@ -1,3 +1,9 @@
+
+disp("-->> Starting process.");
+addpath("app");
+addpath("functions");
+addpath("templates");
+
 load flu
 flu2 = stack(flu,2:10,'NewDataVarName','FluRate',...
     'IndVarName','Region');
